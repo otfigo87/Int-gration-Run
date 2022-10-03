@@ -113,4 +113,19 @@ textarea {
     resize: none;
     height: 180px;
 }
-
+footer {
+    padding: 60px 250px;
+}
+ul {
+    display: flex;
+    justify-content: space-around; 
+}
+i {
+    border: 1px solid rgb(225, 221, 221);
+    padding: 10px;
+    border-radius: 50%;
+}
+li > a:hover {
+    color: skyblue;
+    border: none;
+}
